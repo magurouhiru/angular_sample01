@@ -6,7 +6,9 @@ import { Component, NgModule } from '@angular/core';
   imports: [],
   template: '<h2>test01</h2>',
 })
-export class Test01Component {}
+export class Test01Component {
+  name = 'Test01Component';
+}
 
 @NgModule({
   imports: [Test01Component],
